@@ -1,0 +1,12 @@
+{
+  "name": "be-terse",
+  "description": "Marketplace for the be-terse plugin",
+  "owner": { "name": "bigskysoftware" },
+  "plugins": [
+    {
+      "name": "be-terse",
+      "description": "Append a terseness instruction to every prompt",
+      "source": "./"
+    }
+  ]
+}

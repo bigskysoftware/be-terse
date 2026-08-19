@@ -1,0 +1,9 @@
+{
+  "name": "be-terse",
+  "version": "1.0.2",
+  "description": "Append a terseness instruction to every prompt",
+  "author": {
+    "name": "Carson Gross",
+    "email": "claude@bigsky.software"
+  }
+}

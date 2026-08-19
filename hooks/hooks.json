@@ -1,0 +1,16 @@
+{
+  "description": "Append a terseness instruction to every prompt",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/append-terse.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}
